@@ -1,5 +1,5 @@
 import React from "react";
-import "../components/SemesterPage1.css";  // same CSS file use kar sakte ho jo maine pehle diya tha
+import "./Semesterpage1.css";  // same CSS file use kar sakte ho jo maine pehle diya tha
 
 function SemesterPage1() {
   return (
