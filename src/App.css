@@ -1,0 +1,46 @@
+.dashboard {
+  text-align: center;
+  padding: 40px;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  min-height: 100vh;
+  color: #222;
+}
+body {
+  margin: 0.8px;
+  padding: 0;
+  background-image: url("./assets/Agc.png");
+  background-size: cover;     /* cover, contain, or auto */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  
+                /* full screen */
+}
+
+.semester-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmaSx(200px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.sem-card {
+  display: block;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.sem-card:hover {
+  background: #4facfe;
+  color: white;
+  transform: translateY(-5px);
+}
